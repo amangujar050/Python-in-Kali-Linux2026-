@@ -12,13 +12,7 @@ The Spam Detector Tool is a command-line utility that analyzes text messages and
 🎨 Colorful Terminal UI using ANSI escape codes
 
 
-🧠 How It Works
- ┌─────────┐    ┌──────────┐    ┌─────────────┐    ┌──────────┐
- │  INPUT  │ →  │   SCAN   │ →  │    SCORE    │ →  │ VERDICT  │
- │  Text / │    │ Keywords │    │  Weighted   │    │  Clean / │
- │  File   │    │ URLs     │    │  0 – 100    │    │  Spam    │
- └─────────┘    │ Patterns │    └─────────────┘    └──────────┘
-                └──────────┘
+
 Detection Layers
 LayerWhat It ChecksKeyword Analysis200+ spam phrases across 7 categoriesURL DetectionIP-based URLs, .tk/.xyz TLDs, URL shortenersBrand SpoofingFake PayPal, Apple, Amazon, Microsoft domainsHeuristic RulesCAPS ratio, ! count, $ signs, repeated words
 Spam Score Verdicts
