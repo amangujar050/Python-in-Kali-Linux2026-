@@ -13,29 +13,8 @@ The Spam Detector Tool is a command-line utility that analyzes text messages and
 
 
 
-Detection Layers
-LayerWhat It ChecksKeyword Analysis200+ spam phrases across 7 categoriesURL DetectionIP-based URLs, .tk/.xyz TLDs, URL shortenersBrand SpoofingFake PayPal, Apple, Amazon, Microsoft domainsHeuristic RulesCAPS ratio, ! count, $ signs, repeated words
-Spam Score Verdicts
-ScoreVerdict0 – 19✅ Likely Clean20 – 39🟢 Possibly Suspicious40 – 59🟡 Suspicious60 – 79🟠 Likely Spam80 – 100🔴 Definite Spam
 
-🚀 Installation & Usage
-Step 1 — Clone or Download
-bashgit clone https://github.com/yourusername/spam-detector.git
-cd spam-detector
-Step 2 — Make Executable
-bashchmod +x spam_detector.py
-Step 3 — Run It
-▶ Interactive Mode (type your message, end with END)
-bashpython3 spam_detector.py
-▶ Quick Text Mode
-bashpython3 spam_detector.py -t 'Congratulations! You won a free prize click here now!!!'
-▶ Analyze a File
-bashpython3 spam_detector.py -f email.txt
-▶ Batch Mode (multiple messages separated by ---)
-bashpython3 spam_detector.py -b emails.txt
-▶ Install Globally (use from anywhere)
-bashsudo cp spam_detector.py /usr/local/bin/spamcheck
-spamcheck -t 'free money win now'
+
 
 📂 Project Structure
 spam-detector/
