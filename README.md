@@ -1,4 +1,5 @@
 SPAM DETECTOR TOOL USING PYTHON 
+
 The Spam Detector Tool is a command-line utility that analyzes text messages and emails for spam indicators using keyword-based scoring, URL analysis, and heuristic pattern detection. It requires no external libraries — just Python 3 which comes pre-installed on Kali Linux.
 
 ✨ Features
